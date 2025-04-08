@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto P. WEB</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preload" as="style" href="css/styles.css">
+
+    <!-- ESTILOS Y LIBRERIAS  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+</head>
+
+<body>
+    <div class="loader">
+        <img src="img/GECKO/simboloGeckoBlanco.png" alt="Logo PuntoCeo" class="loader__img">
+    </div>
+    <header class="site__header">
+        <div class="container__fluid">
+            <div>
+                <a href="index.html" rel="home">
+                    <div class="logo">PuntoCeo</div>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__menu poppins-semibold">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#metodo">MÉTODO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+                <div class="toggle_btn">
+                    <i class="bi bi-list"></i>
+                </div>
+            </nav>
+        </div>
+        <ul class="dropdown_menu poppins-semibold">
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#metodo">MÉTODO</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="inicio" class="main__section">
+            <h1 class="h1-oculto">PuntoCeo - Agencia de Marketing Digital</h1>
+            <div class="container__portada">
+                <div class="texto__portada">
+                    <h2 class="EdgecuttingLiteMedium">IMPULSAMOS MARCAS</h2>
+                    <h3 class="poppins-semibold sub">CREAMOS CONEXIONES</h3>
+                </div>
+                <div class="simbolo__container">
+                    <img class="simbolo__portada" src="img/GECKO/simboloGeckoBlanco.png" alt="Símbolo PuntoCeo">
+                </div>
+            </div>
+        </section>
+        <section id="servicios" class="services">
+            <div class="fila-superior" data-aos="fade-up" data-aos-easing="ease-out">
+                <article class="servicio__carta">
+                    <img src="img/SERVICIOS/service-branding.gif" alt="Servicio de branding" class="rectangular">
+                    <h3 class="poppins-light title_brand">BRANDING</h3>
+                </article>
+
+                <article class="servicio__carta">
+                    <img src="img/SERVICIOS/service-audiovisuales.png" alt="Producción audiovisual" class="cuadrado">
+                    <h3 class="poppins-light">AUDIO VISUALES</h3>
+                </article>
+            </div>
+            <div class="segunda-parte" data-aos="fade-up" data-aos-easing="ease-out">
+                <h2>NUESTROS <br>SERVICIOS</h2>
+                <section class="servicio__carta">
+                    <img class="cuadrado" src="img/SERVICIOS/service-web-design.png" alt="Diseño Web">
+                    <h3 class="poppins-light">DISEÑO WEB</h3>
+                </section>
+
+                <section class="servicio__carta">
+                    <img class="cuadrado" src="img/SERVICIOS/service-redes-sociales.png" alt="Social Media">
+                    <h3 class="poppins-light">SOCIAL MEDIA</h3>
+                </section>
+            </div>
+        </section>
+        <!-- SECCIÓN MÉTODO -->
+        <section id="metodo" class="metodo">
+            <div class="contenedor">
+                <div class="metodo__title">
+                    <h2 class="poppins-light" data-aos="fade-up" data-aos-easing="ease-out">NUESTRA METODOLOGÍA</h2>
+                </div>
+                <div class="metodo__grid">
+                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
+                        <div class="icon__circle">
+                            <img src="img/ICONOS/icon-1.png" alt="Icono de Estudio y Análisis">
+                        </div>
+                        <p class="poppins-regular">Estudio profundo de la marca y su presencia digital.</p>
+                    </article>
+                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
+                        <div class="icon__circle">
+                            <img src="img/ICONOS/icon-2.png" alt="Icono de Planificación">
+                        </div>
+                        <p class="poppins-regular">Creación de un plan de marketing digital a medida.</p>
+                    </article>
+                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
+                        <div class="icon__circle">
+                            <img src="img/ICONOS/icon-3.png" alt="Icono de Implementación">
+                        </div>
+                        <p class="poppins-regular">Implementación de campañas importantes y efectivas.</p>
+                    </article>
+                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
+                        <div class="icon__circle">
+                            <img src="img/ICONOS/icon-4.png" alt="Icono de Análisis y ajustes">
+                        </div>
+                        <p class="poppins-regular">Análisis continuo y ajustes para asegurar resultados óptimos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION CONTACTO  -->
+        <section id="contacto" class="contacto">
+            <div class="form__Content animate">
+                <h2 class="EdgecuttingLiteMedium">¡TRABAJEMOS JUNTOS!</h2>
+                <p>IMPULSEMOS TU MARCA</p>
+
+                <form id="contactForm" class="animate">
+                    <div class="form__group">
+                        <label for="name" class="poppins-medium">Nombres</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="lastname" class="poppins-medium">Apellidos</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone" class="poppins-medium">Celular</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="poppins-medium">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form__mensaje">
+                        <label for="message" class="poppins-medium">Mensaje</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button class="poppins-semibold" type="submit">Agendar</button>
+                </form>
+            </div>
+        </section>
+        <div id="notification" class="notification">¡Formulario enviado correctamente!</div>
+        <div id="loadingModal" class="modal">
+            <div class="modal-content">
+                <p>Enviando<span class="dots"></span></p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content animate">
+            <div class="footer__logo">
+                <img src="img/LOGOS/logoNegro.png" alt="Logo PuntoCeo">
+                <p class="poppins-regular">Impulsamos marcas, creamos conexiones.</p>
+            </div>
+
+            <div class="footer__social">
+                <a href="" target="_blank"
+                    class="social__link poppins-regular">instagram</a>
+                <a href="" target="_blank"
+                    class="social__link poppins-regular">facebook</a>
+                <a href="" target="_blank"
+                    class="social__link poppins-regular">tiktok</a>
+            </div>
+
+            <div class="footer__links">
+                <div>
+                    <a class="poppins-regular" href="docs/politica-de-privacidad.html" target="_blank">POLÍTICA DE
+                        PRIVACIDAD</a>
+                    <a class="poppins-regular" href="docs/terminos-y-condiciones.html" target="_blank">TÉRMINOS Y
+                        CONDICIONES</a>
+                    <a class="poppins-regular" href="#">LIBRO DE RECLAMACIONES</a>
+                </div>
+                <div>
+                    <a class="poppins-regular" href="#">POLÍTICA DE COOKIES</a>
+                    <a class="poppins-regular" href="docs/terminos-y-condiciones-de-contratacion.html"
+                        target="_blank">POLÍTICA DE TÉRMINOS Y CONDICIONES DE CONTRATACIÓN</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <p class="poppins-regular">PUNTOCEO S.A.C. - RUC: 6451635241653</p>
+            <p class="poppins-regular">PuntoCeo© 2025. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <a href="//wa.me/51934954030?text=¡Hola%20PuntoCeo!%20%F0%9F%91%8B%20Quiero%20más%20información%20sobre%20sus%20servicios%20de%20Marketing%20Digital."
+        class="whatsapp-float d-flex item-center jc-center" target="_blank" title="Chatea con nosotros por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <script src="js/navbar.js"></script>
+    <script src="js/anim.js"></script>
+    <script src="js/form.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
