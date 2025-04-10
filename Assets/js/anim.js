@@ -2,15 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const loader = document.querySelector(".loader");
     const loaderImg = document.querySelector(".loader__img");
 
-    // Esperar a que termine la animación
     loaderImg.addEventListener("animationend", function () {
-        document.body.classList.add("loaded"); // Agrega la clase para aplicar la animación de fadeOut
+        document.body.classList.add("loaded"); 
         setTimeout(() => {
-            loader.style.display = "none"; // Oculta el loader completamente
-        }, 300); // Tiempo de fadeOut en el CSS
+            loader.style.display = "none"; 
+        }, 300); 
     });
 });
-
 
 // ANIMACIÓN SUBIDA CONTENIDO SECCIONES
 document.addEventListener("DOMContentLoaded", () => {
