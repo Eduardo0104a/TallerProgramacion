@@ -2,8 +2,8 @@ window.history.scrollRestoration = "manual";
 
 // MENU HAMBURGUESA
 document.addEventListener("DOMContentLoaded", () => {
-    const toggleBtn = document.querySelector(".toggle_btn");
-    const dropdownMenu = document.querySelector(".dropdown_menu");
+    const toggleBtn = document.querySelector(".btn_hamburguesa");
+    const dropdownMenu = document.querySelector(".menu_hamburguesa");
     const toggleIcon = toggleBtn.querySelector("i");
     const menuLinks = dropdownMenu.querySelectorAll("a");
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // CAMBIO DE COLOR NAVBAR
 document.addEventListener("DOMContentLoaded", function () {
-    const header = document.querySelector(".site__header"); 
+    const header = document.querySelector(".barra_header"); 
 
     window.addEventListener("scroll", function () {
         if (window.scrollY > 0) { 
