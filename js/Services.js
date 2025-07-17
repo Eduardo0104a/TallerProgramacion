@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const servicios = [{
             nombre: "Fiesta de 50 años",
             descripcion: "Celebra medio siglo con una fiesta inolvidable. Decoración elegante, música en vivo y detalles personalizados.",
-            imagen: "../assets/img/50_anios/decoracion.jpg",
+            imagen: "assets/img/50_anios/decoracion.jpg",
             galeria: [
                 "assets/img/50_anios/decoracion.jpg",
                 "assets/img/50_anios/bar.jpg",
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Baby Shower",
             descripcion: "Creamos un ambiente tierno y especial para dar la bienvenida al nuevo miembro de la familia.",
-            imagen: "../assets/img/baby_showers/decoracion_conejito.jpg",
+            imagen: "assets/img/baby_showers/decoracion_conejito.jpg",
             galeria: [
                 "assets/img/baby_showers/decoracion_femenina.jpg",
                 "assets/img/baby_showers/masculino.jpg",
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Bautizos",
             descripcion: "Organizamos bautizos con toques clásicos y modernos, adaptándonos a tus tradiciones.",
-            imagen: "../assets/img/bautizos/decoracion.jpg",
+            imagen: "assets/img/bautizos/decoracion.jpg",
             galeria: [
                 "assets/img/bautizos/mesa.jpg",
                 "assets/img/bautizos/pastel.jpg"
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Graduaciones",
             descripcion: "Eventos para cerrar ciclos escolares con alegría, recuerdos y estilo.",
-            imagen: "../assets/img/graduaciones/escenario.jpg",
+            imagen: "assets/img/graduaciones/escenario.jpg",
             galeria: [
                 "assets/img/graduaciones/aaa.jpg",
                 "assets/img/graduaciones/promocion_primaria.jpg",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Bodas",
             descripcion: "Diseñamos bodas de ensueño, cuidando cada detalle, desde la ceremonia hasta la fiesta.",
-            imagen: "../assets/img/bodas/novios.jpg",
+            imagen: "assets/img/bodas/novios.jpg",
             galeria: [
                 "assets/img/bodas/novios_baile.jpg",
                 "assets/img/bodas/novios_mirada.jpg",
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Decoraciones",
             descripcion: "Desde decoraciones para cumpleaños infantiles hasta adultos, hacemos que cada celebración sea única.",
-            imagen: "../assets/img/cumpleaños/cumpleaños_ramdom.jpg",
+            imagen: "assets/img/cumpleaños/cumpleaños_ramdom.jpg",
             galeria: [
                 "assets/img/cumpleaños/cumpleaños_cristiano.jpg",
                 "assets/img/cumpleaños/decoracion1.jpg"
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Despedidas de soltera",
             descripcion: "Organizamos despedidas inolvidables: divertidas, glamorosas o temáticas, según tu estilo.",
-            imagen: "../assets/img/despedida_soltera/amigas_solteras_por_siempre.jpg",
+            imagen: "assets/img/despedida_soltera/amigas_solteras_por_siempre.jpg",
             galeria: [
                 "assets/img/despedida_soltera/piscina.jpg",
                 "assets/img/despedida_soltera/señorita.jpg"
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             nombre: "Quinceañeros",
             descripcion: "Una noche mágica para celebrar los 15 años con elegancia, música, luces y más.",
-            imagen: "../assets/img/quinceañeros/decoracion_amplio.jpg",
+            imagen: "assets/img/quinceañeros/decoracion_amplio.jpg",
             galeria: [
                 "assets/img/quinceañeros/quinceañera.jpg",
                 "assets/img/quinceañeros/quinceañera2.jpg",
