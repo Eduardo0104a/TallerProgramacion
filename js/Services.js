@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Celebra medio siglo con una fiesta inolvidable. Decoración elegante, música en vivo y detalles personalizados.",
             imagen: "../assets/img/50_anios/decoracion.jpg",
             galeria: [
-                "../assets/img/50_anios/decoracion.jpg",
-                "../assets/img/50_anios/bar.jpg",
-                "../assets/img/50_anios/bocaditos.jpg",
-                "../assets/img/50_anios/pastel.jpg"
+                "assets/img/50_anios/decoracion.jpg",
+                "assets/img/50_anios/bar.jpg",
+                "assets/img/50_anios/bocaditos.jpg",
+                "assets/img/50_anios/pastel.jpg"
             ]
         },
         {
@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Creamos un ambiente tierno y especial para dar la bienvenida al nuevo miembro de la familia.",
             imagen: "../assets/img/baby_showers/decoracion_conejito.jpg",
             galeria: [
-                "../assets/img/baby_showers/decoracion_femenina.jpg",
-                "../assets/img/baby_showers/masculino.jpg",
-                "../assets/img/baby_showers/niño_O_niña.jpg",
-                "../assets/img/baby_showers/decoracion_osito.jpg"
+                "assets/img/baby_showers/decoracion_femenina.jpg",
+                "assets/img/baby_showers/masculino.jpg",
+                "assets/img/baby_showers/niño_O_niña.jpg",
+                "assets/img/baby_showers/decoracion_osito.jpg"
             ]
         },
         {
@@ -29,8 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Organizamos bautizos con toques clásicos y modernos, adaptándonos a tus tradiciones.",
             imagen: "../assets/img/bautizos/decoracion.jpg",
             galeria: [
-                "../assets/img/bautizos/mesa.jpg",
-                "../assets/img/bautizos/pastel.jpg"
+                "assets/img/bautizos/mesa.jpg",
+                "assets/img/bautizos/pastel.jpg"
             ]
         },
         {
@@ -38,12 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Eventos para cerrar ciclos escolares con alegría, recuerdos y estilo.",
             imagen: "../assets/img/graduaciones/escenario.jpg",
             galeria: [
-                "../assets/img/graduaciones/aaa.jpg",
-                "../assets/img/graduaciones/promocion_primaria.jpg",
-                "../assets/img/graduaciones/promocion.jpg",
-                "../assets/img/graduaciones/escenario2.jpg",
-                "../assets/img/graduaciones/el_causa.jpg",
-                "../assets/img/graduaciones/hora_loca.jpg",
+                "assets/img/graduaciones/aaa.jpg",
+                "assets/img/graduaciones/promocion_primaria.jpg",
+                "assets/img/graduaciones/promocion.jpg",
+                "assets/img/graduaciones/escenario2.jpg",
+                "assets/img/graduaciones/el_causa.jpg",
+                "assets/img/graduaciones/hora_loca.jpg",
             ]
         },
         {
@@ -51,10 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Diseñamos bodas de ensueño, cuidando cada detalle, desde la ceremonia hasta la fiesta.",
             imagen: "../assets/img/bodas/novios.jpg",
             galeria: [
-                "../assets/img/bodas/novios_baile.jpg",
-                "../assets/img/bodas/novios_mirada.jpg",
-                "../assets/img/bodas/novios_piscina.jpg",
-                "../assets/img/bodas/la_mascara_en_la_boda.jpg"
+                "assets/img/bodas/novios_baile.jpg",
+                "assets/img/bodas/novios_mirada.jpg",
+                "assets/img/bodas/novios_piscina.jpg",
+                "assets/img/bodas/la_mascara_en_la_boda.jpg"
             ]
         },
         {
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Desde decoraciones para cumpleaños infantiles hasta adultos, hacemos que cada celebración sea única.",
             imagen: "../assets/img/cumpleaños/cumpleaños_ramdom.jpg",
             galeria: [
-                "../assets/img/cumpleaños/cumpleaños_cristiano.jpg",
-                "../assets/img/cumpleaños/decoracion1.jpg"
+                "assets/img/cumpleaños/cumpleaños_cristiano.jpg",
+                "assets/img/cumpleaños/decoracion1.jpg"
             ]
         },
         {
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Organizamos despedidas inolvidables: divertidas, glamorosas o temáticas, según tu estilo.",
             imagen: "../assets/img/despedida_soltera/amigas_solteras_por_siempre.jpg",
             galeria: [
-                "../assets/img/despedida_soltera/piscina.jpg",
-                "../assets/img/despedida_soltera/señorita.jpg"
+                "assets/img/despedida_soltera/piscina.jpg",
+                "assets/img/despedida_soltera/señorita.jpg"
             ]
         },
         {
@@ -80,13 +80,13 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Una noche mágica para celebrar los 15 años con elegancia, música, luces y más.",
             imagen: "../assets/img/quinceañeros/decoracion_amplio.jpg",
             galeria: [
-                "../assets/img/quinceañeros/quinceañera.jpg",
-                "../assets/img/quinceañeros/quinceañera2.jpg",
-                "../assets/img/quinceañeros/quinceañera3.jpg",
-                "../assets/img/quinceañeros/torta_.jpg",
-                "../assets/img/quinceañeros/quinceañero_sala.jpg",
-                "../assets/img/quinceañeros/quinceañera_y_escenario.jpg",
-                "../assets/img/quinceañeros/quinceañera_y_barman.jpg"
+                "assets/img/quinceañeros/quinceañera.jpg",
+                "assets/img/quinceañeros/quinceañera2.jpg",
+                "assets/img/quinceañeros/quinceañera3.jpg",
+                "assets/img/quinceañeros/torta_.jpg",
+                "assets/img/quinceañeros/quinceañero_sala.jpg",
+                "assets/img/quinceañeros/quinceañera_y_escenario.jpg",
+                "assets/img/quinceañeros/quinceañera_y_barman.jpg"
             ]
         },
     ];
