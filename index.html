@@ -1,208 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto P. WEB</title>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://unpkg.com">
-    <link rel="preload" as="style" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" Organiza tu evento ideal con 
+    Eventos Ariana's. Decoraciones, cumpleaños, bodas, quinceañeros, animaciones y coordinación 
+    profesional para momentos inolvidables.">
+  <meta name="author" content="grupo 5">
 
-    <!-- ESTILOS Y LIBRERIAS  -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <title>Eventos Ariana's | Organización de Bodas, Quinceañeros y Más</title>
 
+  <link rel="stylesheet" href="assets/css/general.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <div class="loader">
-        <img src="img/GECKO/simboloGeckoBlanco.png" alt="Logo PuntoCeo" class="loader__img">
-    </div>
-    <header class="site__header">
-        <div class="container__fluid">
-            <div>
-                <a href="index.html" rel="home">
-                    <div class="logo">PuntoCeo</div>
-                </a>
-            </div>
-            <nav class="nav">
-                <ul class="nav__menu poppins-semibold">
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#servicios">SERVICIOS</a></li>
-                    <li><a href="#metodo">MÉTODO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
-                </ul>
-                <div class="toggle_btn">
-                    <i class="bi bi-list"></i>
-                </div>
-            </nav>
-        </div>
-        <ul class="dropdown_menu poppins-semibold">
-            <li><a href="#inicio">INICIO</a></li>
-            <li><a href="#servicios">SERVICIOS</a></li>
-            <li><a href="#metodo">MÉTODO</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
+
+  <!--Cabecera-->
+  <div class="loader">
+    <img src="assets/img/logo/logoLoader.webp" alt="Logo PuntoCeo" class="loader__img">
+  </div>
+  <header class="site-header">
+    <div class="container-header">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html" rel="home">
+          <img src="assets/img/logo/LogoATW.webp" alt="Logo Eventos Ariana´s">
+        </a>
+      </div>
+
+      <!-- Botón Hamburguesa -->
+      <div class="hamburger" id="hamburger">
+        <i class="bi bi-list"></i>
+      </div>
+
+
+      <!-- Navegación -->
+      <nav class="nav">
+        <ul class="nav-menu " id="nav-menu">
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#paquetes">Paquetes</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
-    </header>
-    <main>
-        <section id="inicio" class="main__section">
-            <h1 class="h1-oculto">PuntoCeo - Agencia de Marketing Digital</h1>
-            <div class="container__portada">
-                <div class="texto__portada">
-                    <h2 class="EdgecuttingLiteMedium">IMPULSAMOS MARCAS</h2>
-                    <h3 class="poppins-semibold sub">CREAMOS CONEXIONES</h3>
-                </div>
-                <div class="simbolo__container">
-                    <img class="simbolo__portada" src="img/GECKO/simboloGeckoBlanco.png" alt="Símbolo PuntoCeo">
-                </div>
-            </div>
-        </section>
-        <section id="servicios" class="services">
-            <div class="fila-superior" data-aos="fade-up" data-aos-easing="ease-out">
-                <article class="servicio__carta">
-                    <img src="img/SERVICIOS/service-branding.gif" alt="Servicio de branding" class="rectangular">
-                    <h3 class="poppins-light title_brand">BRANDING</h3>
-                </article>
+      </nav>
+    </div>
+  </header>
 
-                <article class="servicio__carta">
-                    <img src="img/SERVICIOS/service-audiovisuales.png" alt="Producción audiovisual" class="cuadrado">
-                    <h3 class="poppins-light">AUDIO VISUALES</h3>
-                </article>
-            </div>
-            <div class="segunda-parte" data-aos="fade-up" data-aos-easing="ease-out">
-                <h2>NUESTROS <br>SERVICIOS</h2>
-                <section class="servicio__carta">
-                    <img class="cuadrado" src="img/SERVICIOS/service-web-design.png" alt="Diseño Web">
-                    <h3 class="poppins-light">DISEÑO WEB</h3>
-                </section>
+  <!--Contenido principal-->
+  <main>
+    <!--Inicio-->
+    <section class="main-section" id="inicio">
+      <div class="main-container">
+        <div class="banner-overlay"></div>
+        <h1 class="main-title">
+          ¡Tu evento soñado,<br>Nuestra especialidad!
+        </h1>
 
-                <section class="servicio__carta">
-                    <img class="cuadrado" src="img/SERVICIOS/service-redes-sociales.png" alt="Social Media">
-                    <h3 class="poppins-light">SOCIAL MEDIA</h3>
-                </section>
-            </div>
-        </section>
-        <!-- SECCIÓN MÉTODO -->
-        <section id="metodo" class="metodo">
-            <div class="contenedor">
-                <div class="metodo__title">
-                    <h2 class="poppins-light" data-aos="fade-up" data-aos-easing="ease-out">NUESTRA METODOLOGÍA</h2>
-                </div>
-                <div class="metodo__grid">
-                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
-                        <div class="icon__circle">
-                            <img src="img/ICONOS/icon-1.png" alt="Icono de Estudio y Análisis">
-                        </div>
-                        <p class="poppins-regular">Estudio profundo de la marca y su presencia digital.</p>
-                    </article>
-                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
-                        <div class="icon__circle">
-                            <img src="img/ICONOS/icon-2.png" alt="Icono de Planificación">
-                        </div>
-                        <p class="poppins-regular">Creación de un plan de marketing digital a medida.</p>
-                    </article>
-                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
-                        <div class="icon__circle">
-                            <img src="img/ICONOS/icon-3.png" alt="Icono de Implementación">
-                        </div>
-                        <p class="poppins-regular">Implementación de campañas importantes y efectivas.</p>
-                    </article>
-                    <article class="metodo__item" data-aos="fade-left" data-aos-easing="ease-out" data-aos-delay="100">
-                        <div class="icon__circle">
-                            <img src="img/ICONOS/icon-4.png" alt="Icono de Análisis y ajustes">
-                        </div>
-                        <p class="poppins-regular">Análisis continuo y ajustes para asegurar resultados óptimos.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- SECCION CONTACTO  -->
-        <section id="contacto" class="contacto">
-            <div class="form__Content animate">
-                <h2 class="EdgecuttingLiteMedium">¡TRABAJEMOS JUNTOS!</h2>
-                <p>IMPULSEMOS TU MARCA</p>
-
-                <form id="contactForm" class="animate">
-                    <div class="form__group">
-                        <label for="name" class="poppins-medium">Nombres</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form__group">
-                        <label for="lastname" class="poppins-medium">Apellidos</label>
-                        <input type="text" id="lastname" name="lastname" required>
-                    </div>
-                    <div class="form__group">
-                        <label for="phone" class="poppins-medium">Celular</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    <div class="form__group">
-                        <label for="email" class="poppins-medium">E-mail</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form__mensaje">
-                        <label for="message" class="poppins-medium">Mensaje</label>
-                        <textarea id="message" name="message"></textarea>
-                    </div>
-                    <button class="poppins-semibold" type="submit">Agendar</button>
-                </form>
-            </div>
-        </section>
-        <div id="notification" class="notification">¡Formulario enviado correctamente!</div>
-        <div id="loadingModal" class="modal">
-            <div class="modal-content">
-                <p>Enviando<span class="dots"></span></p>
-            </div>
+        <div class="container-images" id="carousel">
+          <div class="carousel-slide">
+            <img src="assets/img/kids/fiesta_granja.webp" alt="Imagen Granja">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/baby_showers/masculino3.webp" alt="Imagen Baby Shower">
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/img/quinceañeros/quince.webp" alt="Imagen Quinceaños">
+          </div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="footer__content animate">
-            <div class="footer__logo">
-                <img src="img/LOGOS/logoNegro.png" alt="Logo PuntoCeo">
-                <p class="poppins-regular">Impulsamos marcas, creamos conexiones.</p>
-            </div>
 
-            <div class="footer__social">
-                <a href="" target="_blank"
-                    class="social__link poppins-regular">instagram</a>
-                <a href="" target="_blank"
-                    class="social__link poppins-regular">facebook</a>
-                <a href="" target="_blank"
-                    class="social__link poppins-regular">tiktok</a>
-            </div>
+        <div class="main-dots" id="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+    </section>
 
-            <div class="footer__links">
+    <!--Servicios-->
+
+    <!-- Nosotros -->
+    <section class="about-section" id="nosotros">
+      <div class="info-container">
+        <h2 class="EdgecuttingLiteMedium">NUESTRA EMPRESA</h2>
+        <p class="poppins-medium">
+          Nacimos como proveedores de mobiliario para eventos y al día de hoy nuestro equipo de trabajo ha
+          desarrollado la mejor atención ya integral para su evento social o corporativo.
+          Su satisfacción y tranquilidad es nuestro objetivo, para que disfrute de su evento.
+        </p>
+      </div>
+
+      <div class="reasons">
+        <h3 class="poppins-semibold">¡Razones para elegirnos!</h3>
+        <div class="features">
+          <article>
+            <figure class="icon">
+              <img src="assets/img/icons/cheers.png" alt="Diferencia">
+            </figure>
+            <h4 class="poppins-medium">Marca la diferencia</h4>
+            <p class="poppins-regular">Ofrecemos las ultimas tendencias mundiales</p>
+          </article>
+
+          <article>
+            <figure class="icon">
+              <img src="assets/img/icons/iconoCorazon.png" alt="Expertos en cada detalle">
+            </figure>
+            <h4 class="poppins-medium">Expertos en cada detalle</h4>
+            <p class="poppins-regular">Planificamos cada detalle para que cada momento sea perfecto.</p>
+          </article>
+
+          <article>
+            <figure class="icon">
+              <img src="assets/img/icons/piggy-bank.png" alt="El lujo no siempre es caro">
+            </figure>
+            <h4 class="poppins-medium">El lujo no siempre es caro</h4>
+            <p class="poppins-regular">Nos esforzamos por conseguir lo mejor para tu presupuesto.</p>
+          </article>
+
+          <article>
+            <span class="icon">
+              <img src="assets/img/icons/iconoHombreBailando (2).png" alt="Una celebración que refleja tu esencia">
+            </span>
+            <h4 class="poppins-medium">Fiestas Inolvidables</h4>
+            <p class="poppins-regular">Escuchamos tus ideas y sueños para hacerlo realidad</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Paquetes-->
+    <!--Tabla-->
+    <section class="package-section" id="paquetes">
+      <h2 class="title-table EdgecuttingLiteMedium">NUESTROS PAQUETES</h2>
+      <table class="package-table">
+        <thead>
+          <tr>
+            <th>Paquete básico</th>
+            <th>Paquete estándar</th>
+            <th>Paquete premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Decoración con globos<br>(arco pequeño)</td>
+            <td>Todo lo del paquete básico</td>
+            <td>Todo lo del paquete estándar</td>
+          </tr>
+          <tr>
+            <td>Centros de mesa sencillos</td>
+            <td>Arco de globos mediano</td>
+            <td>Arco de globos grande<br>y fondo personalizado</td>
+          </tr>
+          <tr>
+            <td>Mantelería básica</td>
+            <td>Centro de mesa con flores naturales</td>
+            <td>Carritos de snack - barra libre</td>
+          </tr>
+          <tr>
+            <td>Instalación incluida</td>
+            <td>Detalles personalizados</td>
+            <td>Letras gigantes decorativas</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Espejo mágico y cabina 360°</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="galeria">
+      <h2>GALERÍA IMAGENES</h2>
+      <div class="galeria-grid">
+        <img src="/assets/img/cumpleaños/cumpleaños_cristiano.jpg" loading="lazy" alt="Foto de cumpleaños cristiano">
+        <img src="/assets/img/baby_showers/masculino.jpg" loading="lazy" alt="Foto de baby shower">
+        <img src="/assets/img/graduaciones/hora_loca.jpg" loading="lazy" alt="Foto de graduacion">
+        <img src="/assets/img/kids/fiesta_granja.webp" loading="lazy" alt="Foto de Fiesta tematica granja">
+        <img src="/assets/img/50_anios/mesa_completa.jpg" loading="lazy" alt="Foto de mesa completa evento de 50 años">
+        <img src="/assets/img/quinceañeros/quinceañera.jpg" loading="lazy" alt="Foto quinceañero">
+        <img src="/assets/img/bautizos/decoracion.jpg" loading="lazy" alt="Foto de decoracion">
+        <img src="/assets/img/despedida_soltera/amigas_solteras_por_siempre.jpg" loading="lazy"
+          alt="Foto de despedida de soltera">
+        <img src="/assets/img/cumpleaños/cumpleaños_ramdom.jpg" loading="lazy" alt="Foto de cumpleaños random">
+        <img src="/assets/img/50_anios/pastel.jpg" loading="lazy" alt="Foto de paste de 40 años">
+        <img src="/assets/img/baby_showers/decoracion_leoncito.jpg" loading="lazy" alt="Foto decoracion de leon">
+        <img src="/assets/img/despedida_soltera/piscina.jpg" loading="lazy" alt="Foto de despedida de soltera">
+
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="contact-section" id="contacto">
+      <div class="contact-container">
+        <div class="contact-info-container">
+          <!--Dirección-->
+          <article class="info-item">
+            <div class="item">
+              <i class="bi bi-map-fill"></i>
+            </div>
+            <div class="content">
+              <h4>Direccion de Oficina</h4>
+              <p>AV. Mexico 999 - La Victoria</p>
+            </div>
+          </article>
+          <!--Horario de atención-->
+          <article class="info-item">
+            <div class="item">
+              <i class="bi bi-stopwatch-fill"></i>
+            </div>
+            <div class="content">
+              <h4>Horario de Atención</h4>
+              <p>Lun - Sab 9AM -6PM</p>
+            </div>
+          </article>
+          <!--Redes sociales-->
+          <article>
+            <div class="redes-container">
+              <h3>¡Visitanos en <br> Nuestras redes!</h3>
+              <div class="redes-item">
                 <div>
-                    <a class="poppins-regular" href="docs/politica-de-privacidad.html" target="_blank">POLÍTICA DE
-                        PRIVACIDAD</a>
-                    <a class="poppins-regular" href="docs/terminos-y-condiciones.html" target="_blank">TÉRMINOS Y
-                        CONDICIONES</a>
-                    <a class="poppins-regular" href="#">LIBRO DE RECLAMACIONES</a>
+                  <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
                 </div>
                 <div>
-                    <a class="poppins-regular" href="#">POLÍTICA DE COOKIES</a>
-                    <a class="poppins-regular" href="docs/terminos-y-condiciones-de-contratacion.html"
-                        target="_blank">POLÍTICA DE TÉRMINOS Y CONDICIONES DE CONTRATACIÓN</a>
+                  <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
                 </div>
+                <div>
+                  <a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                </div>
+                <div>
+                  <a href="#" target="_blank"><i class="bi bi-tiktok"></i></a>
+                </div>
+              </div>
             </div>
+          </article>
         </div>
-        <div class="footer__info">
-            <p class="poppins-regular">PUNTOCEO S.A.C. - RUC: 6451635241653</p>
-            <p class="poppins-regular">PuntoCeo© 2025. Todos los derechos reservados.</p>
+
+        <!--Formulario-->
+        <div class="form-container">
+          <h3>¡Contáctanos!</h3>
+          <article>
+            <div>
+              <form action="">
+                <div>
+                  <label for="nombreApellido">Nombre y Apellido</label>
+                  <input type="text" id="nombreApellido" name="nombreApellido" placeholder="Juan Peréz" required>
+                </div>
+                <div>
+                  <label for="correo">Correo electrónico</label>
+                  <input type="email" id="correo" name="correo" placeholder="juan@gmail.com" required>
+                </div>
+                <div>
+                  <label for="númeroTelefónico">Número telefónico</label>
+                  <input type="tel" id="númeroTelefónico" name="númeroTelefónico" placeholder="915360088"
+                    pattern="9[0-9]{8}" title="Debe comenzar con 9 y tener 9 dígitos" required>
+                </div>
+                <div>
+                  <label for="servicio">Servicio</label>
+                  <select id="servicio" name="servicio">
+                    <option value="">---Seleccione un servicio---</option>
+                    <option value="cumpleaños">Cumpleaños</option>
+                    <option value="fiesta infantil">Fiesta infantil</option>
+                    <option value="baby shower">Baby shower</option>
+                    <option value="boda">Boda</option>
+                    <option value="evento corporativo">Evento corporativo</option>
+                    <option value="quinceañero">Quinceañero</option>
+                    <option value="graduación">Graduación</option>
+                    <option value="bautizo">Bautizo</option>
+                    <option value="despedida de soltera">Despedida de soltera</option>
+                    <option value="50 años">50 años</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="mensaje" class="poppins-medium">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="4"
+                    cols="40"></textarea>
+                </div>
+                <div>
+                  <input type="submit" class="poppins-regular" value="Enviar">
+                </div>
+              </form>
+            </div>
+          </article>
         </div>
-    </footer>
-    <a href="//wa.me/51934954030?text=¡Hola%20PuntoCeo!%20%F0%9F%91%8B%20Quiero%20más%20información%20sobre%20sus%20servicios%20de%20Marketing%20Digital."
-        class="whatsapp-float d-flex item-center jc-center" target="_blank" title="Chatea con nosotros por WhatsApp">
-        <i class="bi bi-whatsapp"></i>
+      </div>
+    </section>
+    <a href="//wa.me/51915360088?text=¡Hola%20!%20%F0%9F%91%8B%20Quiero%20más%20información%20sobre%20sus%20servicios."
+      class="whatsapp-float" target="_blank" title="Chatea con nosotros por WhatsApp">
+      <i class="bi bi-whatsapp"></i>
     </a>
-    <script src="js/navbar.js"></script>
-    <script src="js/anim.js"></script>
-    <script src="js/form.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
+  </main>
+
+  <!--Pie de página-->
+  <footer>
+    <div class="footer__content">
+      <div class="footer__logo">
+        <img src="assets/img/logo/LogoATW.webp" alt="Logo Eventos Ariana's">
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__section">
+          <h4 class="poppins-semibold">LEGALES</h4>
+          <a href="/terminos" class="poppins-light">TÉRMINOS Y CONDICIONES</a>
+          <a href="/cookies" class="poppins-light">POLÍTICA DE COOKIES</a>
+          <a href="/contratacion" class="poppins-light">POLÍTICA DE TERMINOS Y CONDICIONES DE CONTRATACIÓN</a>
+        </div>
+
+        <div class="footer__section">
+          <h4 class="poppins-semibold">CONTACTO</h4>
+          <p>
+            <a href="tel:+51950133911" class="poppins-light">
+              <i class="bi bi-phone me-2"></i> +51 950 133 911
+            </a>
+          </p>
+          <p>
+            <a href="mailto:puntoceo@mktceo.com" class="poppins-light">
+              <i class="bi bi-envelope me-2"></i> ariana@eventos.com
+            </a>
+          </p>
+        </div>
+
+        <div class="footer__section">
+          <h4 class="poppins-semibold">REDES SOCIALES</h4>
+          <div class="social__links">
+            <a href="https://www.facebook.com/profile.php?id=61572937177015&locale=es_LA" target="_blank"
+              title="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/puntoceo.mkt/" target="_blank" title="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@puntoceo.mkt?lang=es" target="_blank" title="TikTok">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="poppins-light">Eventos Ariana's - R.U.C. 8451835241858</p>
+      <p>&copy; 2025 Eventos Ariana´s. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/navbar.js"></script>
 </body>
 
 </html>
